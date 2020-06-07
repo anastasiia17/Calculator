@@ -1,0 +1,9 @@
+C:\Users\N\RiderProjects\WindowsCalculator\WindowsCalculator\bin\Debug\WindowsCalculator.exe.config
+C:\Users\N\RiderProjects\WindowsCalculator\WindowsCalculator\bin\Debug\WindowsCalculator.exe
+C:\Users\N\RiderProjects\WindowsCalculator\WindowsCalculator\bin\Debug\WindowsCalculator.pdb
+C:\Users\N\RiderProjects\WindowsCalculator\WindowsCalculator\obj\Debug\WindowsCalculator.csprojResolveAssemblyReference.cache
+C:\Users\N\RiderProjects\WindowsCalculator\WindowsCalculator\obj\Debug\WindowsCalculator.Properties.Resources.resources
+C:\Users\N\RiderProjects\WindowsCalculator\WindowsCalculator\obj\Debug\WindowsCalculator.csproj.GenerateResource.cache
+C:\Users\N\RiderProjects\WindowsCalculator\WindowsCalculator\obj\Debug\WindowsCalculator.csproj.CoreCompileInputs.cache
+C:\Users\N\RiderProjects\WindowsCalculator\WindowsCalculator\obj\Debug\WindowsCalculator.exe
+C:\Users\N\RiderProjects\WindowsCalculator\WindowsCalculator\obj\Debug\WindowsCalculator.pdb
