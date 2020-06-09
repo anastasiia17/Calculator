@@ -64,7 +64,8 @@
             this.textBox_Res.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // Button1
-            // 
+            //
+            this.Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button1.Location = new System.Drawing.Point(191, 72);
             this.Button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button1.Name = "Button1";
@@ -76,17 +77,19 @@
             // 
             // Button2
             // 
+            this.Button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button2.Location = new System.Drawing.Point(73, 72);
             this.Button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button2.Name = "Button2";
             this.Button2.Size = new System.Drawing.Size(110, 42);
             this.Button2.TabIndex = 2;
-            this.Button2.Text = "backspase";
+            this.Button2.Text = "<-";
             this.Button2.UseVisualStyleBackColor = true;
             this.Button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // CButton
             // 
+            this.CButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CButton.Location = new System.Drawing.Point(17, 72);
             this.CButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CButton.Name = "CButton";
@@ -98,6 +101,7 @@
             // 
             // DivButton
             // 
+            this.DivButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DivButton.Location = new System.Drawing.Point(277, 72);
             this.DivButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DivButton.Name = "DivButton";
@@ -109,6 +113,7 @@
             // 
             // SevenButton
             // 
+            this.SevenButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SevenButton.Location = new System.Drawing.Point(16, 130);
             this.SevenButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SevenButton.Name = "SevenButton";
@@ -120,6 +125,7 @@
             // 
             // EightButton
             // 
+            this.EightButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EightButton.Location = new System.Drawing.Point(104, 130);
             this.EightButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.EightButton.Name = "EightButton";
@@ -131,6 +137,7 @@
             // 
             // NineButton
             // 
+            this.NineButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NineButton.Location = new System.Drawing.Point(191, 130);
             this.NineButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.NineButton.Name = "NineButton";
@@ -142,6 +149,7 @@
             // 
             // MultButton
             // 
+            this.MultButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MultButton.Location = new System.Drawing.Point(277, 130);
             this.MultButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MultButton.Name = "MultButton";
@@ -153,6 +161,7 @@
             // 
             // FourButton
             // 
+            this.FourButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FourButton.Location = new System.Drawing.Point(17, 191);
             this.FourButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.FourButton.Name = "FourButton";
@@ -164,6 +173,7 @@
             // 
             // FiveButton
             // 
+            this.FiveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FiveButton.Location = new System.Drawing.Point(104, 191);
             this.FiveButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.FiveButton.Name = "FiveButton";
@@ -175,6 +185,7 @@
             // 
             // SixButton
             // 
+            this.SixButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SixButton.Location = new System.Drawing.Point(191, 191);
             this.SixButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.SixButton.Name = "SixButton";
@@ -186,6 +197,7 @@
             // 
             // MinusButton
             // 
+            this.MinusButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MinusButton.Location = new System.Drawing.Point(277, 191);
             this.MinusButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MinusButton.Name = "MinusButton";
@@ -197,6 +209,7 @@
             // 
             // OneButton
             // 
+            this.OneButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OneButton.Location = new System.Drawing.Point(16, 251);
             this.OneButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.OneButton.Name = "OneButton";
@@ -208,6 +221,7 @@
             // 
             // TwoButton
             // 
+            this.TwoButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TwoButton.Location = new System.Drawing.Point(104, 251);
             this.TwoButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TwoButton.Name = "TwoButton";
@@ -219,6 +233,7 @@
             // 
             // ThreeButton
             // 
+            this.ThreeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ThreeButton.Location = new System.Drawing.Point(191, 251);
             this.ThreeButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ThreeButton.Name = "ThreeButton";
@@ -230,6 +245,7 @@
             // 
             // PlusButton
             // 
+            this.PlusButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PlusButton.Location = new System.Drawing.Point(277, 251);
             this.PlusButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PlusButton.Name = "PlusButton";
@@ -241,6 +257,7 @@
             // 
             // Button3
             // 
+            this.Button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button3.Location = new System.Drawing.Point(16, 311);
             this.Button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button3.Name = "Button3";
@@ -252,6 +269,7 @@
             // 
             // ZeroButton
             // 
+            this.ZeroButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ZeroButton.Location = new System.Drawing.Point(104, 311);
             this.ZeroButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ZeroButton.Name = "ZeroButton";
@@ -262,7 +280,8 @@
             this.ZeroButton.Click += new System.EventHandler(this.ZeroButton_Click);
             // 
             // Button4
-            // 
+            //
+            this.Button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Button4.Location = new System.Drawing.Point(191, 311);
             this.Button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Button4.Name = "Button4";

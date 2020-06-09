@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml;
 
 namespace WindowsCalculator
 {
@@ -29,7 +30,6 @@ namespace WindowsCalculator
             textBox_Res.Text = textBox_Res.Text + 0;
         }
         
-
         private void OneButton_Click(object sender, EventArgs e)
         {
             textBox_Res.Text = textBox_Res.Text + 1;
@@ -74,34 +74,38 @@ namespace WindowsCalculator
         {
             textBox_Res.Text = textBox_Res.Text + 9;
         }
-        
+
         private void calculate()
         {
-
             switch (count)
-            {
-                case 1:
-                    b = a + float.Parse(textBox_Res.Text);
-                    textBox_Res.Text = b.ToString();
-                    break;
-
-                case 2:
-                    b = a - float.Parse(textBox_Res.Text);
-                    textBox_Res.Text = b.ToString();
-                    break;
-                case 3:
-                    b = a * float.Parse(textBox_Res.Text);
-                    textBox_Res.Text = b.ToString();
-                    break;
-                case 4:
-                    b = a / float.Parse(textBox_Res.Text);
-                    textBox_Res.Text = b.ToString();
-                    break;
-
-                default:
-                    break;
+                {
+                    case 1:
+                        
+                        b = a + float.Parse(textBox_Res.Text);
+                        textBox_Res.Text = b.ToString();
+                        break;
+                    case 2:
+                        b = a - float.Parse(textBox_Res.Text);
+                        textBox_Res.Text = b.ToString();
+                        break;
+                    case 3:
+                        b = a * float.Parse(textBox_Res.Text);
+                        textBox_Res.Text = b.ToString();
+                        break;
+                    case 4:
+                        if (float.Parse(textBox_Res.Text) == 0)
+                        {
+                            double c = Double.NaN;
+                            textBox_Res.Text = c.ToString();
+                            break;
+                        }
+                        b = a / float.Parse(textBox_Res.Text);
+                        textBox_Res.Text = b.ToString();
+                        break;
+                        
+                    default:
+                        break;
             }
-
         }
 
         private void PlusButton_Click(object sender, EventArgs e)
@@ -116,10 +120,10 @@ namespace WindowsCalculator
 
         private void MinusButton_Click(object sender, EventArgs e)
         {
-            a = float.Parse(textBox_Res.Text);
-            textBox_Res.Clear();
-            count = 2;
-            label1.Text = a.ToString() + "-";
+            a = float.Parse(textBox_Res.Text); 
+            textBox_Res.Clear(); 
+            count = 2; 
+            label1.Text = a.ToString() + "-"; 
             sign = true;
         }
 
